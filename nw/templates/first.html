@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        
+.gd{
+background-color: blue;
+height: 400px;
+width: 400px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr ;
+column-gap: 10px;
+row-gap: 10px;
+}
+.gd:hover{
+    background-color: salmon;
+
+}
+
+.a{
+    background-color: blueviolet;
+      
+} 
+.b{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.c{
+    background-color: chocolate;
+}
+.d{
+    background-color: rosybrown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+    </style>
+</head>
+<body>
+    <!-- <p class="p1">Hello</p>
+    <p class="p1">hii</p>
+    <p id="p2">hai</p>
+    <div>
+        hlw
+    </div>
+    
+    <div>
+        <p>helloo</p>
+    </div>
+    <img src="{% static 'pic.png' %}" alt="img1">
+    <img src="{% static 'pic.png' %}" alt="img2">
+    <div class="sample">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quisquam eum libero ipsa, dolore iusto consequuntur eius soluta in distinctio culpa officia eveniet, minus totam et quod pariatur voluptatum assumenda?
+    </div>
+    <div>
+        <h2 >hii</h2>
+        <br>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, libero nisi laborum expedita aspernatur vitae corporis, voluptate quod voluptatem fugit blanditiis aliquam doloribus facere! Ipsam deleniti tempora explicabo corporis odit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum laborum dicta veniam sapiente, sequi ex pariatur. Repellendus aspernatur voluptas, alias delectus numquam ullam iure magni neque hic corporis suscipit!Lorem
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, hic repudiandae sint nulla deleniti, consectetur reprehenderit itaque, unde tempora harum accusantium provident necessitatibus vero nam soluta quo minus ipsum? Error.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et sit sed provident dolore libero nostrum laboriosam minima commodi aliquam laudantium. Exercitationem eum debitis inventore mollitia corrupti voluptatem tempora iure magni.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quis aut nemo fugiat. Nulla explicabo accusantium id, odio voluptates consectetur saepe cumque aut quidem ducimus porro voluptatum, reprehenderit quaerat est!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos facere ratione, magnam incidunt soluta numquam, quia fuga aliquid veritatis dolores consectetur, architecto facilis ex? Temporibus voluptatum commodi itaque ad? Velit.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis amet laboriosam animi. Quasi assumenda non tempore! Id, sunt error soluta sequi cumque officiis exercitationem earum aperiam nam illum unde asperiores.
+
+        </h3>
+    </div>
+    <div class="box">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+    </div> -->
+    <div class="gd">
+        
+        <div class="a">1</div>
+        <div class="b">2</div>
+        <div class="c">3</div>
+        <div class="d">4</div>
+    </div>
+</body>
+</html>

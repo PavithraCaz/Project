@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
-    welcome
+    <div class="header">
+        <div class="header-left">
+            <img src="static/fb.jpeg" alt="">
+            <div class="header-input">
+                <span class="icons">SEARCH</span>
+                <input type="text" placeholder="search">
+            </div>
+        </div>
+        <div class="header-middle">
+            <div class="header-option">
+                <span class="icon">HOME</span>
+            </div>
+            <div class="header-option">
+                <span class="icon">FRIENDS</span>
+            </div>
+            <div class="header-option">
+                <span class="icon">MARKET</span>
+            </div>
+            <div class="header-option">
+                <span class="icon">WATCH</span>
+            </div>
+            <div class="header-option">
+                <span class="icon">GROUP</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="header-info">
+                <img class="user-image" src="static/Cat03.jpg" alt="">
+                <h4>Python</h4>
+            </div>
+            <span class="icon">MENU</span>
+            <span class="icon">MESSENGER</span>
+            <span class="icon">NOTIFICATION</span>
+            <span class="icon">ACCOUNT</span>
+        </div>
+    </div>
+    <div class="main__body">
+    <div class="sidebar">
+        <div class="sidebarRow">
+            <div class="usericon">
+            <img class="userimage" src="static/Cat03.jpg" alt="">
+            </div>
+            <h4>Python</h4>
+    </div>
 </body>
 </html>

@@ -12,7 +12,7 @@ def Login(request):
              'email':email}
     return render(request,'login.html',context)
 
-def Test(request):
-    return render(request,'test.html')
+def Boot(request):
+    return render(request,'bootstrap.html')
 
-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
+
